@@ -1,0 +1,7 @@
+Crie uma classe Agenda que pode armazenar 10 pessoas (usando a classe pessoa criada anteriormente) e que seja capaz de realizar as seguintes
+operações:
+a. void armazenarPessoa(String nome, LocalDate dataNascimento, double altura); //armazena a pessoa em um array
+b. void removerPessoa(String nome); //remove a pessoa do array
+c. int buscarPessoa(String nome); // informa em que posição da agenda está a pessoa
+d. void imprimirAgenda(); // imprime os dados de todas as pessoas da agenda
+e. void imprimirPessoa(int indice); // imprime os dados da pessoa que está na posição “indice” da agenda.

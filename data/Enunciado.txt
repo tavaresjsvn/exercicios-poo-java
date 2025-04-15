@@ -1,0 +1,3 @@
+Crie uma classe java chamada Data que inclui três informações como variáveis de instância - mês, dia, ano (ano). A classe deve conter métodos getters e setters
+para cada variável e um construtor que inicializa as variáveis e assume que os valores estão corretos. Forneça um método displayData que exibe o dia, o mês, e o ano 
+separados por barras normais (/). Escreva um aplicativo teste que demonstra capacidade da classe Data.

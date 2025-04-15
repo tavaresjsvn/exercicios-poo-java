@@ -1,0 +1,7 @@
+Crie uma classe chamada Empregado que inclui as três informações a seguir como atributos:
+	a. um primeiro nome
+	b. um sobrenome
+	c. um salário mensal
+	
+Sua classe deve conter o método construtor e metodos getters e setters. implemente um método que retorna 
+o salário anual e outro que dá aumento de 10% em cima do sálario atual.
