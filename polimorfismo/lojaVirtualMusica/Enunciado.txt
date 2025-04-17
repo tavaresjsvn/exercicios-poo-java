@@ -1,0 +1,41 @@
+Exercício 2: Cadastro de Arquivos MP3 e MP4
+
+Objetivo:
+Implementar um sistema simples para cadastrar arquivos de música (MP3) e vídeo (MP4) usando herança e polimorfismo.
+
+Requisitos:
+
+1. Estrutura de Classes:
+   - Classe base: Arquivo
+     * Atributos:
+       - kbytes (tamanho)
+       - preco
+       - autor
+     * Métodos:
+       - inserirDados() (coleta via Scanner)
+       - printDados() (exibe informações)
+
+   - Classe derivada: MP3
+     * Atributo adicional:
+       - downloads
+     * Deve sobrescrever:
+       - inserirDados() (adiciona coleta de downloads)
+       - printDados() (mostra tipo MP3 e downloads)
+
+   - Classe derivada: MP4
+     * Atributo adicional:
+       - visitas
+     * Deve sobrescrever:
+       - inserirDados() (adiciona coleta de visitas)
+       - printDados() (mostra tipo MP4 e visitas)
+
+2. Funcionalidade:
+   - O programa principal deve:
+     1. Criar um objeto MP3 e coletar seus dados
+     2. Criar um objeto MP4 e coletar seus dados
+     3. Exibir os dados de ambos os arquivos
+
+3. Regras:
+   - Todos os dados devem ser inseridos via teclado (Scanner)
+   - Usar polimorfismo para chamar os métodos
+   - Manter o Scanner como atributo estático na classe base

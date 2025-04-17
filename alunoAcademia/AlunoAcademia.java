@@ -46,9 +46,7 @@ public class AlunoAcademia {
 	}
 	
 	public boolean maiorDeIdade() {
-		if (idade >= 18) { return true;}
-		
-		return false;
+		return idade >= 18;
 	}
 	
 	public double calcularImc() {

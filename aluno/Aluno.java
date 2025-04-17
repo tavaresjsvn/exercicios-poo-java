@@ -9,6 +9,7 @@ public class Aluno {
 	public Aluno (String nome, int matricula) {
 		this.nome = nome;
 		this.matricula = matricula;
+		this.notas = new double[]{0.0, 0.0, 0.0};
 	}
 	
 	public double calcularMedia() {
@@ -32,27 +33,25 @@ public class Aluno {
 		
 	}
 	
-	public void setNota(int indice, double nota) {
-		if (indice >= 1 && indice <= 3) {
-			if (nota >= 0 && nota <=10) {
-				notas[indice - 1] = nota;
-			} else {
-				System.out.println("Nota inválida! esolha entre 1 e 10.");
-			}
-		} else {
-			System.out.println("Índice de nota inválido, esolha entre 1,2 ou 3.");
-		} 
-	}
+	 public boolean setNota(int indice, double nota) {
+	        if (indice < 1 || indice > 3) {
+	            System.out.println("Índice inválido! Escolha entre 1, 2 ou 3.");
+	            return false;
+	        }
+	        if (nota < 0 || nota > 10) {
+	            System.out.println("Nota inválida! Escolha um valor entre 0 e 10.");
+	            return false;
+	        }
+	        notas[indice - 1] = nota;
+	        return true;
+	    }
 	
-	public double getNota(int indice) {
-		if (indice >= 1 && indice <= 3) {
-				return notas[indice - 1];
-		} else {
-			System.out.println("Índice inválido, tente 1, 2 ou 3");
-		}
-		
-		return -1;
-	}
+	 public double getNota(int indice) {
+	        if (indice < 1 || indice > 3) {
+	            throw new IllegalArgumentException("Índice inválido! Use 1, 2 ou 3.");
+	        }
+	        return notas[indice - 1];
+	    }
 
 	public String getNome() {
 		return nome;

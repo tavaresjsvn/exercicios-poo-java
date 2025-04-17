@@ -14,7 +14,7 @@ public class ContaBancaria {
 	
 	public void depositar (double deposito) {
 		if (deposito < 0) {
-			System.out.println("Valor de depósito unválido");
+			System.out.println("Valor de depósito inválido");
 		} else {
 			saldo = saldo + deposito;
 			System.out.println("Depósito de R$" + deposito + " realizado com sucesso!");

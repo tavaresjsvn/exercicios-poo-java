@@ -1,0 +1,46 @@
+Exercício 1: Cadastro de CDs e DVDs para Loja
+
+Contexto:
+Uma loja de CDs e DVDs deseja criar um sistema de cadastro para seus produtos. Foi fornecido um diagrama de classes com a hierarquia de classes Midia (superclasse), CD e DVD (subclasses).
+
+Requisitos:
+
+1. Atributos:
+- Classe Midia (superclasse):
+  * int codigo
+  * double preco
+  * String nome
+
+- Classe CD (herda de Midia):
+  * int nMusicas (número de músicas)
+
+- Classe DVD (herda de Midia):
+  * int nFaixas (número de faixas)
+
+2. Métodos obrigatórios (comportamento polimórfico):
+Todas as classes devem implementar:
+
++---------------+-------------------------------------------+
+| Método        | Descrição                                 |
++---------------+-------------------------------------------+
+| getTipo()     | Retorna String com nome da classe         |
+| getDetalhes() | Retorna String com valores dos campos     |
+| printDados()  | Exibe tipo e detalhes da mídia no console |
+| inserirDados()| Permite preencher campos via teclado      |
++---------------+-------------------------------------------+
+
+Além disso:
+- Implementar construtores (com e sem parâmetros)
+- Criar getters e setters para todos os campos
+
+3. Funcionalidade adicional:
+- O programa principal deve criar objetos de CD e DVD
+- Usar inserirDados() para preenchê-los
+- Exibir seus dados com printDados()
+
+Diagrama de Classes:
+        [Midia]
+        /      \
+       /        \
+    [CD]       [DVD]
+    (nMusicas)  (nFaixas)
