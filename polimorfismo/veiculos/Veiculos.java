@@ -37,6 +37,6 @@ public class Veiculos {
 	
 	public void printDados() {
 		System.out.println("Modelo: " + getModelo());
-		System.out.printf("Preco: R$%.2f ", getPreco());
+		System.out.printf("Preço: R$%.2f ", getPreco());
 	}
 }

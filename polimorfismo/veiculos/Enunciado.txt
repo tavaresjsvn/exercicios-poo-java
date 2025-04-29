@@ -1,0 +1,35 @@
+Exercício 3: Cadastro de Veículos de uma Revenda
+
+Objetivo:
+Implementar um sistema de cadastro para veículos de uma revenda, com dois tipos específicos: Carros e Motos, utilizando os conceitos de herança e polimorfismo.
+
+Requisitos:
+
+Estrutura de Classes (conforme diagrama UML fornecido):
+
+   - Classe Base: Veículo
+     * Atributos:
+       - modelo: String
+       - preco: double
+     * Métodos:
+       + Veiculo(String modelo, double preco) (construtor)
+       + getPreco(): double
+       + printDados(): void
+
+   - Classe Derivada: Moto (herda de Veículo)
+     * Atributo adicional:
+       - ano: int
+     * Métodos:
+       + Moto(String modelo, double preco, int ano) (construtor)
+       + setAno(int ano): void
+       + insertData(): void (para entrada de dados)
+       + printDados(): void (sobrescrito)
+
+   - Classe Derivada: Carro (herda de Veículo)
+     * Atributo adicional:
+       - km: double
+     * Métodos:
+       + Carro(String modelo, double preco, double km) (construtor)
+       + setKm(double km): void
+       + insertData(): void (para entrada de dados)
+       + printDados(): void (sobrescrito)
