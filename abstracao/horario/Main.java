@@ -1,4 +1,4 @@
-package horario;
+package abstracao.horario;
 
 public class Main {
 

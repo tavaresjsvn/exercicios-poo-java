@@ -1,4 +1,4 @@
-package pessoa;
+package abstracao.pessoa;
 import java.time.LocalDate;
 
 public class Main {

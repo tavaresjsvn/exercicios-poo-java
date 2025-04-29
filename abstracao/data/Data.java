@@ -1,4 +1,4 @@
-package data;
+package abstracao.data;
 
 public class Data {
 	

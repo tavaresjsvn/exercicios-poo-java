@@ -1,4 +1,4 @@
-package combustivel;
+package abstracao.combustivel;
 
 public class BombaCombustivel {
 

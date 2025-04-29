@@ -1,4 +1,4 @@
-package retangulo;
+package abstracao.retangulo;
 
 public class Retangulo {
 	

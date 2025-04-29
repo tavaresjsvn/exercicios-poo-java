@@ -1,4 +1,4 @@
-package circulo;
+package abstracao.circulo;
 
 public class Circulo {
 	

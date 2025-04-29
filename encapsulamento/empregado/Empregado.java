@@ -1,4 +1,4 @@
-package empregado;
+package encapsulamento.empregado;
 
 public class Empregado {
 	private String nome;

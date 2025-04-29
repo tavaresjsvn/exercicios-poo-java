@@ -1,4 +1,4 @@
-package eletrodomestico;
+package encapsulamento.eletrodomestico;
 
 public class Eletrodomestico {
 	private String nome;

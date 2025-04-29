@@ -1,4 +1,4 @@
-package contaBancaria;
+package encapsulamento.contaBancaria;
 
 public class ContaBancaria {
 	

@@ -1,4 +1,4 @@
-package produto;
+package encapsulamento.produto;
 
 public class Main {
 

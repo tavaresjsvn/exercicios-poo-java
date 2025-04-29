@@ -1,7 +1,7 @@
-package agenda;
+package encapsulamento.agenda;
 
 import java.time.LocalDate;
-import  pessoa.Pessoa;
+import abstracao.pessoa.Pessoa;
 
 public class Agenda {
 	

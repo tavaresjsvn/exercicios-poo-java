@@ -1,4 +1,4 @@
-package fatura;
+package abstracao.fatura;
 
 public class Fatura {
 	private String numero;

@@ -1,4 +1,4 @@
-package data;
+package abstracao.data;
 
 public class Main {
 	public static void main(String[] args) {

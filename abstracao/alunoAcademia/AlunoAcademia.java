@@ -1,4 +1,4 @@
-package alunoAcademia;
+package abstracao.alunoAcademia;
 
 public class AlunoAcademia {
 	private String nome;

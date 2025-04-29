@@ -1,4 +1,4 @@
-package ingresso;
+package heranca.ingresso;
 
 public class Ingresso {
 	
